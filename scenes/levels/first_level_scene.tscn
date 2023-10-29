@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dlc0yqmug6gm2"]
+
+[node name="FirstLevelScene" type="Node3D"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath(".")
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
